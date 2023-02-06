@@ -8,15 +8,23 @@
       margin-right: auto;
       width: 50%;
     }
+
+    .zoom {
+      transition: transform .2s;
+      width: 50%;
+    }
+
+    .zoom:hover {
+      transform: scale(2);
+    }
   </style>
 </head>
 <body>
-  <a href="BayesNetsPoster-1-1-highres.png" target="_blank">
-    <img src="BayesNetsPoster-1-1.png" alt="Bayes Nets Poster" class="center">
-  </a>
+  <img src="BayesNetsPoster-1-1.png" alt="Bayes Nets Poster" class="center zoom">
   <br><br>
   <center>
     <a href="https://github.com/GuacamoleAficionado/KFoldValidation">The code I wrote for this project</a>
   </center>
 </body>
 </html>
+
